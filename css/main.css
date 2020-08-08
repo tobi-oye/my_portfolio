@@ -178,7 +178,7 @@
         width: 100%;
         height: 30px; */
     }
-    .header,.main_body,.about_me,.services,.stacks,.latest_works,.work_experiences{
+    .header,.main_body,.about_me,.services,.stacks,.latest_works,.work_experiences_body{
         margin: 20px 10px;
     }
     .header{
@@ -311,7 +311,7 @@
         
       }
       .my_button{
-        width: 100%;
+        width: 95%;
         padding: 20px;
 
       }
@@ -381,13 +381,47 @@
         position: relative;
         contain: content;
         padding: 45px 0px;
-        margin-left: auto;
-        margin-right: auto;
+        margin:50px auto;
       }
       .social_media_icons{
           margin: 10px;
           text-align: center;
           font-size: 30px;
+      }
 
+      .contact_me_form{
+          display: flex;
+          flex-wrap: wrap;
+          background-color: brown;
+          color: white;
+          border-radius: 15px;
+      }
+      .form{
+          margin: 50px auto;
+      }
+      input[type=submit]{
+        background-color:white;
+        border: none;
+        color: brown;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 15px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        justify-content: center;
+      }
+      .input_field{
+          width: 97%;
+          height: 40px;
+      }
+      .footer_bottom_inner{
+          text-align: center;
+          text-decoration: none;
+      }
+      a.footer_bottom_inner:visited{
+          text-decoration: none;
       }
     }
