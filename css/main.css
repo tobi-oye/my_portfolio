@@ -1,15 +1,15 @@
 @font-face{
     font-family: circular;
-    src: url(../font/font-collection/circular/CircularStd-Black.woff);
-    src: url(../font/font-collection/circular/CircularStd-Black.woff2);
-    src: url(../font/circular/circular-black-italic.otf);
-    src: url(../font/circular/circular-black.otf);
-    src: url(../font/circular/circular-bold-italic.otf);
-    src: url(../font/circular/circular-bold.otf);
-    src: url(../font/circular/circular-book-italic.otf);
-    src: url(../font/circular/circular-book.otf);
-    src: url(../font/circular/circular-medium-italic.otf);
-    src: url(../font/circular/circular-medium.otf);
+    src: url(./font/font-collection/circular/CircularStd-Black.woff);
+    src: url(./font/font-collection/circular/CircularStd-Black.woff2);
+    src: url(./font/circular/circular-black-italic.otf);
+    src: url(./font/circular/circular-black.otf);
+    src: url(./font/circular/circular-bold-italic.otf);
+    src: url(./font/circular/circular-bold.otf);
+    src: url(./font/circular/circular-book-italic.otf);
+    src: url(./font/circular/circular-book.otf);
+    src: url(./font/circular/circular-medium-italic.otf);
+    src: url(./font/circular/circular-medium.otf);
     /* font-size: 10px; */
 }
 
