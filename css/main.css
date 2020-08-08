@@ -1,0 +1,353 @@
+@font-face{
+    font-family: circular;
+    src: url(../font/font-collection/circular/CircularStd-Black.woff);
+    src: url(../font/font-collection/circular/CircularStd-Black.woff2);
+    src: url(../font/circular/circular-black-italic.otf);
+    src: url(../font/circular/circular-black.otf);
+    src: url(../font/circular/circular-bold-italic.otf);
+    src: url(../font/circular/circular-bold.otf);
+    src: url(../font/circular/circular-book-italic.otf);
+    src: url(../font/circular/circular-book.otf);
+    src: url(../font/circular/circular-medium-italic.otf);
+    src: url(../font/circular/circular-medium.otf);
+    /* font-size: 10px; */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v12/pxiGyp8kv8JHgFVrLPTucXtAOvWDSHFF.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v12/pxiGyp8kv8JHgFVrLPTufntAOvWDSHFF.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v12/pxiGyp8kv8JHgFVrLPTucHtAOvWDSA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+
+
+
+
+@media screen and (max-width:450px){
+
+    .wrapper,.header,.main_body,.main_body_texts,.job_desc,.my_image,.my_name,.stacks{
+        width: 100%;
+        /* height: 30px; */
+        display: flex;
+        flex-wrap: wrap;
+        color: brown;
+        font-family: 'Poppins',circular;
+    }
+    .box{
+        /* border: 1px solid black; */
+        /* display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 30px; */
+    }
+    .header,.main_body,.about_me,.services,.stacks,.latest_works,.work_experiences{
+        margin: 20px 10px;
+    }
+    .header{
+        margin-bottom: 0px;
+    }
+    .main_body{
+        margin-top: 0px;
+    }
+    .hamburger{
+        right:18px;
+        position: absolute;
+    }
+
+    .my_name,.job_desc,.about_me_header,.about_me_body,
+    .services_header,.services_body,.latest_works_header,
+    .latest_works_body,.contact_me_header,.contact_info,
+    .address, .phone_no,.web_address,.social_media,.contact_me_form{
+        margin: 20px 0px;
+    }
+
+    .about_me_buttons,.view_works,.download_cv{
+        margin: 10px 0px;
+    }
+    .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence{
+        /* height: 300px; */
+        /* background-color: brown; */
+        /* width: 100%; */
+        border-radius: 1em;
+        /* margin: 20px 0px; */
+    }
+
+    .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence,
+    .work_experiences_1,.work_experiences_2,.work_experiences_3{
+        height: 300px;
+        /* background-color: brown; */
+        width: 100%;
+        /* border-radius: 1em; */
+        margin: 20px 0px;
+    }
+
+    .hire_me{
+        width: 100%;
+        padding: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hire_me_header,.hire_me_body{
+        text-align: center;
+        margin: 20px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    .contact_me{
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .logo{
+        color:brown;
+        font-weight: bold;
+        font-size: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .hamburger_button{
+        font-size: 50px;
+        justify-content: left;
+        color: grey;
+        margin: 17px 0px;
+    }
+    .navbar_div{
+        margin-left: 20px;
+    }
+    .navbar,.nav_ul,.nav_li{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        /* display: none; */
+
+    }
+    .nav_li{
+        padding: 10px 0px;
+        
+    }
+
+    .my_name{
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 0px;
+        color: black;
+    }
+
+    .job_desc{
+        font-size: 18px;
+        color: grey;
+        /* font-weight: bold; */
+    }
+    #drawer{
+        display: none;
+    }
+    .my_button,.button_view_works,.button_download{
+        background-color:brown;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 80%;
+        
+      }
+      .my_button{
+        width: 100%;
+        padding: 20px;
+
+      }
+      
+      .about_me_header,.services_header,.latest_works_header,.work_experiences_header,.hire_me_header,.contact_me_header{
+          text-align: center;
+          font-size: 25px;
+          color: black;
+          font-weight: bold;
+      }
+      hr {
+        border: 0;
+        width: 30%;
+        /* color: #f00; */
+        background-color: brown;
+        height: 5px;
+        margin-top: 5px;
+      }
+
+      .button{
+          display: flex;
+          width: 50%;
+      }
+      .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence{
+          display: flex;
+          flex-wrap: wrap;
+          contain: content;
+          /* padding: 20px; */
+          background-image: url(../img/service_bg.jpg);
+          /* background-color: blue; */
+          /* background-color: black; */
+      }
+      .overlay{
+          background-color: brown;
+          padding: 20px;
+          opacity: 0.9;
+          width: 100%;
+          /* position: absolute; */
+          height:100%;
+      }
+      .ux_svg_logo,.web_dev_svg,.mobile_app_svg{
+          fill: white;
+          width: 20%;
+          height: 50px;
+      }
+
+      .ux_logo,.ux_header,.ux_body,.web_dev_header,.web_dev_body,.app_design_head,.app_design_body{
+          margin:05px;
+          color: white;
+          padding: 10px;
+      }
+    }
