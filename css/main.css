@@ -350,4 +350,26 @@
           color: white;
           padding: 10px;
       }
+
+      .work_experience_date,.work_experience_firm,.work_experience_body{
+          color: grey;
+          font-size: 14px;
+          padding: 5px 45px;
+      }
+      .work_experience_job_role{
+          color: black;
+          font-size: large;
+          font-weight: bold;
+          padding: 0px 45px;
+      }
+      .work_experiences{
+        border: 1px groove grey;
+        width: 90%;
+        position: relative;
+        contain: content;
+        padding: 45px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
     }
