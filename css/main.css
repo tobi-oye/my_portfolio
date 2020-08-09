@@ -350,6 +350,7 @@
           width: 100%;
           /* position: absolute; */
           /* height:100%; */
+          border-radius: inherit;
       }
       .ux_svg_logo,.web_dev_svg,.mobile_app_svg{
           fill: white;
