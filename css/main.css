@@ -212,7 +212,7 @@
     .button_view_works,.button_download{
         width: auto;
     }
-    .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence{
+     .experience_card{
         /* height: 300px; */
         /* background-color: brown; */
         /* width: 100%; */
@@ -220,8 +220,7 @@
         /* margin: 20px 0px; */
     }
 
-    .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence,
-    .work_experiences_1,.work_experiences_2,.work_experiences_3{
+    .experience_card{
         height: 300px;
         /* background-color: brown; */
         width: 100%;
@@ -335,7 +334,7 @@
           display: flex;
           width: 50%;
       }
-      .ux_research,.web_dev,.app_design,.data_analytics,.business_intelligence{
+      .experience_card{
           display: flex;
           flex-wrap: wrap;
           contain: content;
